@@ -13,8 +13,4 @@ public class ATM {
         }
         return banknotesCount;
     }
-
-    public static void main(String[] args) {
-        System.out.println(new ATM().countBanknotes(578));
-    }
 }
